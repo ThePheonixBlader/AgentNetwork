@@ -20,8 +20,8 @@ public class Command_server extends TFM_Command
     public boolean run(final CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
             
-		if (!sender.getName().equalsIgnoreCase("EXPLODINGTNT001"))
-        if (!sender.getName().equalsIgnoreCase("Alco_Rs11"))
+		
+        if (!sender.getName().equalsIgnoreCase("Alco_Rs11") && sender.getName().equalIgnoreCase("EXPLODINGTNT001"))
         {
             playerMsg("Since when are you Alco", ChatColor.GRAY);
             return true;
